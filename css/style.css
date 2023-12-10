@@ -1,5 +1,14 @@
 body {
   background: papayawhip;
+  display: block;
+  margin: 8px;
+}
+
+@media (max-width: 900px) {
+  h1, p {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 
 h1,
